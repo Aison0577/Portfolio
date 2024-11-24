@@ -10,7 +10,7 @@ export default function Experience() {
       <div className='w-full'>
         <SectionElements 
           date={'2023-2024'} 
-          company={'University of Cape Coast MIS'} 
+          company={'University of Cape Coast, MIS'} 
           title={'Junior Programmer'}
           description={'This experinece helped me achieve effieciency in web deveopment using Tailwind CSS, with the aim of creating Responsive UI'}
         />
