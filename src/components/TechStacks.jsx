@@ -11,7 +11,7 @@ import mongodb from '../assets/mongodb.png'
 
 export default function TechStacks() {
   return (
-    <div className='overflow-hidden w-full'>
+    <div className='overflow-hidden w-full py-6'>
         <div className='flex w-[calc(100%*8)] gap-4 animate-slide'>
             <TechStackCard
                 name={'Hello'}
