@@ -29,7 +29,7 @@ Welcome to the source code for my personal portfolio website! This project showc
 - **Dependencies**: 
 - **Build Tool**: [Vite](https://vitejs.dev/)  
 - **Styling**: TailwindCSS / CSS Modules
-- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) and [FontAwesome]
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) and [FontAwesome](https://fontawesome.com)
 - **Deployment**: [Vercel](https://vercel.com/)  
 
 ---
