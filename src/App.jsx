@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contacts from './pages/Contacts'
 import Projects from './pages/Projects'
 import Footer from './components_new/Footer'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
   const handleDarkmode = ()=>{
     setdarkmode(!darkmode)
+    sessionStorage.setItem('theme', darkmode)
   }
 
   return (
@@ -34,7 +36,11 @@ function App() {
         </div>
         <Footer/>
       </main>
+      
       </BrowserRouter>
+      <Toaster
+        position='top-center'
+      />
     </div>
   )
 }

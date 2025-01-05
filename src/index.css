@@ -27,4 +27,7 @@ body {
     font-style: normal;
   }
   
-  
+
+  .no-border  .MuiOutlinedInput-notchedOutline{
+    border:none;
+  }
