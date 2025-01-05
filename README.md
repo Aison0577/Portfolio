@@ -64,17 +64,17 @@ Ensure you have the following installed:
 ## **Folder Structure**  
 ```plaintext
 src/
-âââ assets/           # Static files (images, icons, etc.)
- components/       # Reusable UI components
-â   âââ Navbar/       # Navigation bar
-â   âââ Footer/       # Footer section
-â   âââ cards/        # Individual project cards
-â   âââ sections/     # Individual sections in individual pages
-â   âââ buttons/      # All buttons used in the pages
-âââ pages/            # Pages (e.g., Home, About, Contact)
-âââ index.css         # Global and component-specific styles
-âââ App.jsx           # Root component
-âââ main.jsx          # Entry point
+├── assets/           # Static files (images, icons, etc.)
+├── components/       # Reusable UI components
+│   ├── Navbar/       # Navigation bar
+│   ├── Footer/       # Footer section
+│   ├── cards/        # Individual project cards
+│   ├── sections/     # Individual sections in individual pages
+│   ├── buttons/      # All buttons used in the pages
+├── pages/            # Pages (e.g., Home, About, Contact)
+├── index.css         # Global and component-specific styles
+├── App.jsx           # Root component
+├── main.jsx          # Entry point
 ```  
 
 ---
