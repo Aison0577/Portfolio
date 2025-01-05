@@ -65,7 +65,7 @@ Ensure you have the following installed:
 ```plaintext
 src/
 âââ assets/           # Static files (images, icons, etc.)
-âââ components/       # Reusable UI components
+ components/       # Reusable UI components
 â   âââ Navbar/       # Navigation bar
 â   âââ Footer/       # Footer section
 â   âââ cards/        # Individual project cards
