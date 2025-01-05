@@ -112,7 +112,7 @@ Feel free to use the code as a reference or adapt it for your own portfolio!
 ## **Contact**  
 If you have any questions or feedback, feel free to reach out:  
 - **Email**: [jnrstarksciit@gmail.com](mailto:jnrstarksciit@gmail.com)  
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
+- **LinkedIn**: [https://www.linkedin.com/in/eric-ofori-4a019132b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app](https://linkedin.com/in/your-profile)  
 - **GitHub**: [Aison0577](https://github.com/Aison0577)  
 
 ---  
