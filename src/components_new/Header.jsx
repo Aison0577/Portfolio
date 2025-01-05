@@ -11,7 +11,7 @@ export default function Header({handleTheme,darktheme}) {
       <h1 className='dark:text-white text-black font-bold'>EOA</h1>
 
       <div className='flex items-center gap-20'>
-        <nav className='flex items-center gap-4'>
+        <nav className='items-center gap-4 hidden md:flex'>
             <NavButton
                 link={'/'}
                 name={'Explore'}
