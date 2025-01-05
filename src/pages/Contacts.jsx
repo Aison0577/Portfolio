@@ -77,18 +77,11 @@ export default function Contacts() {
           <br />
           <div className='flex items-end gap-2'>
             {/* <textarea type="text" id='name' className='w-full bg-transparent outline-none py-2' placeholder='Enter your message*'/> */}
-            <TextField
-              multiline
-              id='message'
+            <textarea
               name='message'
-              fullWidth
-              placeholder='Enter your message*'
-              className='no-border'
-              rows={3}
-              inputProps={{
-                color:'white',
-              }}
-            />
+              className="w-full flex-1 h-40 py-4  rounded-lg outline-none bg-transparent placeholder-gray-400 resize-none"
+              placeholder="Write your message here..."
+            ></textarea>
             <FontAwesomeIcon icon={faMessage} className='text-gray-500'/>
           </div>
         </div>
