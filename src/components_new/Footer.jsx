@@ -7,8 +7,8 @@ export default function Footer() {
     const isActive = (path) => location.pathname === path || location.pathname.startsWith(path);
 
   return (
-    <div className='wit p-4'>
-      <div className='flex items-center justify-between text-gray-600 font-medium'>
+    <div className='wit p-4 flex flex-col gap-5'>
+      <div className='flex items-center justify-between text-gray-600 w-[80%] mx-auto'>
         <Link to={'/'} className={isActive('/')?'hidden':'block'}>
             Explore
         </Link>
@@ -22,6 +22,11 @@ export default function Footer() {
             Contact
         </Link>
 
+      </div>
+      <div>
+        <button className='bg-white'>
+            
+        </button>
       </div>
     </div>
   )

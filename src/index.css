@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 .wit{
-    @apply w-[100%] md:w-[70%] mx-auto
+    @apply w-[100%] md:w-[80%] lg:w-[60%] mx-auto
 }
+
+body {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/NunitoSans_7pt_Condensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  

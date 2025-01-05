@@ -4,8 +4,8 @@ import Images from '../../../constants/Images'
 export default function MyDetailsSection() {
   return (
     <section className='w-full p-4 grid grid-cols-1 md:grid-cols-2 gap-5 border-b-[1px] border-gray-800'>
-          <div className='h-[200px] md:h-[250px] rounded-xl overflow-hidden shadow-xl'>
-            <img src={Images.exploreIMage1} alt="" className='w-full h-full object-cover'/>
+          <div className=' rounded-xl overflow-hidden shadow-xl'>
+            <img src={Images.exploreIMage1} alt="" className='w-full h-[90%] object-cover shadow-xl rounded-lg overflow-hidden'/>
           </div>
     
           {/* INfomation */}

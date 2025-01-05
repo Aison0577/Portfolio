@@ -16,6 +16,10 @@ export default {
         }
       }
     },
+    fontFamily: {
+      nunito: ['Nunito', 'sans-serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
+    },
   },
   plugins: [],
   darkMode:'class'
