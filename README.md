@@ -47,7 +47,7 @@ Ensure you have the following installed:
    ```  
 2. Navigate into the project directory:  
    ```bash
-   cd portfolio-website
+   cd Portfolio
    ```  
 3. Install dependencies:  
    ```bash
@@ -68,9 +68,11 @@ src/
 âââ components/       # Reusable UI components
 â   âââ Navbar/       # Navigation bar
 â   âââ Footer/       # Footer section
-â   âââ ProjectCard/  # Individual project cards
+â   âââ cards/        # Individual project cards
+â   âââ sections/     # Individual sections in individual pages
+â   âââ buttons/      # All buttons used in the pages
 âââ pages/            # Pages (e.g., Home, About, Contact)
-âââ styles/           # Global and component-specific styles
+âââ index.css         # Global and component-specific styles
 âââ App.jsx           # Root component
 âââ main.jsx          # Entry point
 ```  
@@ -109,9 +111,9 @@ Feel free to use the code as a reference or adapt it for your own portfolio!
 
 ## **Contact**  
 If you have any questions or feedback, feel free to reach out:  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)  
+- **Email**: [jnrstarksciit@gmail.com](mailto:jnrstarksciit@gmail.com)  
 - **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
-- **GitHub**: [Your GitHub](https://github.com/your-username)  
+- **GitHub**: [Your GitHub](https://github.com/Aison0577)  
 
 ---  
 
