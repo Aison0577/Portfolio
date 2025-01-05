@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-center {
-  @apply w-[99%] md:w-[80%] mx-auto;
+.wit{
+    @apply w-[95%] md:w-[70%] mx-auto
 }
