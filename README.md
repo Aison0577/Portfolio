@@ -113,7 +113,7 @@ Feel free to use the code as a reference or adapt it for your own portfolio!
 If you have any questions or feedback, feel free to reach out:  
 - **Email**: [jnrstarksciit@gmail.com](mailto:jnrstarksciit@gmail.com)  
 - **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
-- **GitHub**: [Your GitHub](https://github.com/Aison0577)  
+- **GitHub**: [Aison0577](https://github.com/Aison0577)  
 
 ---  
 
