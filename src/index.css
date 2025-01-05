@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .wit{
-    @apply w-[95%] md:w-[70%] mx-auto
+    @apply w-[100%] md:w-[70%] mx-auto
 }
