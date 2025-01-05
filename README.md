@@ -26,7 +26,6 @@ Welcome to the source code for my personal portfolio website! This project showc
 
 ## **Technologies Used**  
 - **Framework**: [React](https://reactjs.org/) 
-- **Dependencies**: 
 - **Build Tool**: [Vite](https://vitejs.dev/)  
 - **Styling**: TailwindCSS / CSS Modules
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/) and [FontAwesome](https://fontawesome.com)
@@ -44,7 +43,7 @@ Ensure you have the following installed:
 ### **Installation**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/Aison0577/Portfolio
    ```  
 2. Navigate into the project directory:  
    ```bash
