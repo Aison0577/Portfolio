@@ -71,7 +71,7 @@ src/
 │   ├── cards/        # Individual project cards
 │   ├── sections/     # Individual sections in individual pages
 │   ├── buttons/      # All buttons used in the pages
-├── pages/            # Pages (e.g., Home, About, Contact)
+├── pages/            # Pages (e.g., Explore, About, Projects, Contact)
 ├── index.css         # Global and component-specific styles
 ├── App.jsx           # Root component
 ├── main.jsx          # Entry point
