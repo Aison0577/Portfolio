@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='h-screen w-full min-h-screen bg-white'>
-      <Nav/>
+      {/* <Nav/> */}
       {/* <div className='page-center'> */}
         <Hero/>
         <Profile/>
@@ -23,7 +23,7 @@ function App() {
         <Experience/>
         <Skills/>
         <TechStack/>
-        <Contact/>
+        {/* <Contact/> */}
         <Projects/>
       {/* </div> */}
       

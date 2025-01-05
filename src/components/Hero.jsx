@@ -3,7 +3,7 @@ import bg from '../assets/bg.jpg'
 
 export default function Hero() {
   return (
-    <div className='h-screen w-full relative mt-[-68px] bg-gradient-to-tr from-black to-stone-900'>
+    <div className='h-screen w-full relative  bg-gradient-to-tr from-black to-stone-900'>
         <img src={bg} alt="" className='object-cover w-full h-full absolute mix-blend-overlay'/>
         <div className='page-center relative text h-full flex items-center justify-center flex-col text-white'>
             <h1 className='text-3xl md:text-5xl mb-4 font-extrabold text-center'>Creative Minds at Work:<br/> Explore My Portfolio</h1>

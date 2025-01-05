@@ -25,7 +25,7 @@ export default function Nav() {
             </div>
 
 
-            <div className='space-x-2 hidden md:block'>
+            {/* <div className='space-x-2 hidden md:block'>
                 <button className='bg-gray-300 p-2 rounded-full size-12'>
                     <FontAwesomeIcon icon={faPhone}/>
                 </button>
@@ -36,16 +36,16 @@ export default function Nav() {
                     <FontAwesomeIcon icon={faMessage} className='pr-2'/>
                     Apply for Service
                 </button>
-            </div>
+            </div> */}
 
-            <div className='md:hidden'>
+            {/* <div className='md:hidden'>
                 <button className='p-2 bg-gray-200 rounded-xl ' onClick={()=>setshowMobileNav(!showMobileNav)}>
                     <img src={menu} alt="" className='size-5'/>
                 </button>
-            </div>
+            </div> */}
 
                 {/* Mobile nav */}
-            <div className={showMobileNav?'fixed md:hidden p-2 right-0 top-[60px] ease-in-out duration-500 bg-white shadow-xl bottom-0 flex flex-col gap-3 w-[60%]':'fixed right-[-100%]'}>
+            {/* <div className={showMobileNav?'fixed md:hidden p-2 right-0 top-[60px] ease-in-out duration-500 bg-white shadow-xl bottom-0 flex flex-col gap-3 w-[60%]':'fixed right-[-100%]'}>
                 <button className='bg-gray-100 w-full p-2 rounded-xl size-12'>
                     <FontAwesomeIcon icon={faPhone}/>
                 </button>
@@ -56,7 +56,7 @@ export default function Nav() {
                     <FontAwesomeIcon icon={faMessage} className='pr-2'/>
                     Apply for Service
                 </button> 
-            </div>
+            </div> */}
 
         </div>
     </div>

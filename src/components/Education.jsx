@@ -9,7 +9,7 @@ export default function Education() {
       <Heading head={'Education'}/>
 
       <div className='w-full'>
-        <SectionElements date={'January 2020 - August 2024'} 
+        <SectionElements date={'January 2020 - December 2024'} 
         title={'University of Cape Coast, Ghana'} 
         logo={logo}
         description={'Bachelor of Education Computer Science'}

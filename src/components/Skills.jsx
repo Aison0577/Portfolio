@@ -17,6 +17,28 @@ export default function Skills() {
             title={'UI/UX Design'}
             description={'Developing website of all sort from  Advertisement to E-commerce using tech stacks like React js, Next js, HTML with CSS, Tailwind CSS along side with databases like MySQL and MongoDB'}
         />
+
+        <h1 className='font-semibold underline mb-2'>Other Key Skills</h1>
+        <SectionElements
+            date={'Experienced'}
+            title={'RESTful services'}
+        />
+        <SectionElements
+            date={'Experienced'}
+            title={'Software debugging'}
+        />
+        <SectionElements
+            date={'Experienced'}
+            title={'Frontend & Backend frameworks'}
+        />
+        <SectionElements
+            date={'Experienced'}
+            title={'API Integration'}
+        />
+        <SectionElements
+            date={'Experienced'}
+            title={'Graphic designing'}
+        />
       </div>
       <hr className='my-2'/>
     </div>

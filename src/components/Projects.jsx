@@ -16,8 +16,8 @@ export default function Projects() {
         <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'E-Commerce Website'} image={p2 }/>
         <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Write Up'} image={p3}/>
         <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Rede Naturals'} image={p4}/>
-        {/* <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Firebase Authentication With React'} image={p4}/>
-        <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Movies Site with TMDB API'} image={p4}/> */}
+        {/* <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Firebase Authentication With React'} image={p4}/> */}
+        {/* <ProjectCard link={'https://github.com/Aison0577/Ecomm'} name={'Movies Site with TMDB API'} image={p4}/> */}
       </div>
       
       <hr className='my-2'/>
