@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-export default function NavButton({link,name}) {
+export default function NavButton({link,name,handleClick}) {
   const location = useLocation()
   const isActive =
     (link === '/' && location.pathname === '/') || 
@@ -10,6 +10,7 @@ export default function NavButton({link,name}) {
   return (
     <Link to={link}>
       <button
+      onClick={handleClick}
         className={`${
           isActive ? 'text-blue-800 ' : 'dark:text-white text-black'
         } font-medium`}
