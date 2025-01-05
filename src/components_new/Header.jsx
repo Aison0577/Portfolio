@@ -7,7 +7,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header({handleTheme,darktheme}) {
   return (
-    <div className=' p-2 flex shadow-xl items-center justify-between sticky top-0 dark:border-b-[2px] border-stone-900 backdrop-blur-md'>
+    <div className=' p-2 flex shadow-xl items-center justify-between sticky top-0 dark:border-b-[2px] border-stone-900 backdrop-blur-md z-20 '>
       <h1 className='dark:text-white text-black font-bold'>EOA</h1>
 
       <div className='flex items-center gap-20'>
