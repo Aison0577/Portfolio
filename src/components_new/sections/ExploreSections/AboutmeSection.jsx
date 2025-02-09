@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function AboutmeSection({showmore=false}) {
   return (
@@ -11,8 +12,11 @@ export default function AboutmeSection({showmore=false}) {
         I am continuously improving my skill set, staying updated with industry trends, and striving to deliver high-quality code. I am always excited to take on new challenges and contribute to projects that make a real impact.
       </p>
       {
-        !showmore && (<button className='text-blue-800'>Learn more about me</button>)
-
+        !showmore && (
+          <Link to={'/about'}>
+            <button className='text-blue-800'>Learn more about me</button>
+          </Link>
+        )
       }
       
     </section>

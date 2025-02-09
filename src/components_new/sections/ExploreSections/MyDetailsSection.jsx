@@ -1,5 +1,6 @@
 import React from 'react'
 import Images from '../../../constants/Images'
+import { Link } from 'react-router-dom'
 
 export default function MyDetailsSection() {
   return (
@@ -14,9 +15,11 @@ export default function MyDetailsSection() {
               <h1 className='text-black dark:text-white'>
               I’m a dedicated and passionate software engineer with a strong drive to create innovative, efficient, and user-friendly applications. I have honed my skills through hands-on experience, tackling challenges and continuously learning new technologies. Below, you’ll find some of the projects I’ve worked on and the key skills I bring to the table. I’m excited to showcase my work and share how I can contribute to building impactful solutions.
               </h1>
-              <button className='bg-blue-800 p-2 mt-4 w-full text-white rounded-lg'>
-                Get in touch
-              </button>
+              <Link to={'/contact'}>
+                <button className='bg-blue-800 p-2 mt-4 w-full text-white rounded-lg'>
+                  Get in touch
+                </button>
+              </Link>
           </div>
     </section>
   )
