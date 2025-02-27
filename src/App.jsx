@@ -8,6 +8,7 @@ import Contacts from './pages/Contacts'
 import Projects from './pages/Projects'
 import Footer from './components_new/Footer'
 import { Toaster } from 'react-hot-toast'
+import newlogo from '/logo.png'
 
 function App() {
 
