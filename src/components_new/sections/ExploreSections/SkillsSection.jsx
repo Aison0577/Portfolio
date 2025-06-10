@@ -2,6 +2,7 @@ import React from 'react'
 import SkillsCard from '../../cards/SkillsCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 export default function SkillsSection() {
   return (
@@ -28,9 +29,11 @@ export default function SkillsSection() {
                 skill={'Node js'}
             />
       </div>
+      <Link to={'/about'}>
         <h1 className='flex items-center justify-end gap-2 cursor-pointer text-blue-800 text-sm hover:underline  my-4'>
               Dive into what I can do <FontAwesomeIcon icon={faArrowRight}/>
         </h1>
+      </Link>
     </div>
   )
 }
